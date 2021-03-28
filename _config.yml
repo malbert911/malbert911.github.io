@@ -1,0 +1,51 @@
+title: Matthew Albert # Shown in header on pages with full_logo: true
+short_logo: Matthew Albert # Shown in header on all pages by default unless full_logo: true is set
+description: > # The description for your site
+  A home for my personal projects.
+url: "https://malbert.xyz" # Site base URL
+
+author:
+  name: Matthew Albert
+  github: malbert911 # GitHub username, used for GitHub icon on the top right
+  linkedin: matthew-albert-149070173 # Your LinkedIn profile url name, used for LinkedIn icon on the top right
+  email: matthew.albert911@gmail.com # Used for email icon on the top right
+  homepage: https://malbert.xyz # This links to your name in post meta
+  twitter: # Twitter username, used for Twitter Card Analytics 
+
+disqus_name: # Setting this will turn on Disqus comments
+g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
+
+markdown: kramdown
+
+defaults: # Recommended defaults, you may set your own
+  -
+    scope:
+      path: _posts
+    values:
+      comments: true
+  -
+    scope:
+      path: pages/redirects
+    values:
+      layout: redirect
+      index: false
+      listed: false
+  -
+    scope:
+      path: pages/tags
+    values:
+      layout: tag
+      sitemap:
+        priority: 0.4
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: true
+  profile: false
+  startings: [html, head, body]
+
+rss: false # RSS feed icon on or off

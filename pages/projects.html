@@ -1,0 +1,28 @@
+---
+layout: page
+title: Projects
+subtitle: Things I have made.
+description: Matthew's projects page.
+permalink: /projects
+full_logo: true
+sitemap:
+  priority: 0.9
+tags: 
+- 
+  name: matthew albert
+---
+<div id="particles-js"></div>
+
+<script src="/assets/css/particles.min.js"></script>
+
+<div class="card-columns">
+  {% for project in site.data.projects %}
+    {% include post/project_card.html %}
+  {% endfor %}
+</div>
+
+<script>
+  particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+  </script>

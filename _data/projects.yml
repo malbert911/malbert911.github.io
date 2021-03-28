@@ -1,0 +1,60 @@
+- name: Ace of Spades
+  id: /2021/03/09/ace-of-spades.html
+  img_src: /assets/img/2021-03-09-ace-of-spades/ace-splash.jpg
+  description_less: >
+    <p>My rendition of Destiny’s Ace of Spades</p>
+  description_more: >
+    <p>A non-functional prop hand cannon inspired from a video game. </p>
+
+    <a href="/2021/03/09/ace-of-spades.html" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+    
+  tags: [3D-Printing]
+
+- name: Hand Raiser
+  id: /2020/05/01/handraiser.html
+  img_src: /assets/img/2020-05-01-handraiser/handraiser-menu.jpg
+  description_less: >
+    <p>Tool for online learning during the COVID-19 pandemic</p>
+  description_more: >
+    <p>While our classes were temporarily suspended, a classmate and I started this project to improve the online learning and teaching experience. </p>
+
+    <a href="/2020/05/01/handraiser.html" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+    <a href="https://github.com/malbert911/HandRaiser" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+
+  tags: [programming]
+
+- name: Daft Punk Helmet
+  id: /2019/10/30/daft-punk-helmet.html
+  img_src: /assets/img/2019-10-30-daft-punk-helmet/daft-punk-parking.jpg
+  description_less: >
+    <p>Halloween 2019 project</p>
+  description_more: >
+    <p>This year, I decided on recreating Thomas Bangalter’s helmet from Daft Punk.</p>
+
+    <a href="/2019/10/30/daft-punk-helmet.html" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+
+  tags: [3D-Printing, micro-electronics, programming]
+
+- name: LED Sword # Project name, also used as heading
+  id: /2017/10/31/sword.html # Project id, must be unique amongst the projects
+  img_src: /assets/img/2017-10-30-sword/sword_complete.jpg # Optional image
+  description_less: > # Description shown at all times
+    <p>First major 3D printing project for Halloween 2017</p> 
+  description_more: > # Description shown only when the project card is expanded
+    <p>This is the first Halloween that I had my 3D printer, I wanted to make something special. Why not a custom built 3D printed RGB controllable sword?</p> 
+
+    <a href="/2017/10/31/sword.html" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+
+  tags: [3D-Printing, CAD-Design] # A list of tags <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+
+- name: DIY Oscilloscope
+  id: /2017/03/21/crt-oscilloscope.html
+  img_src: /assets/img/2017-03-21-crt-oscilloscope/crt-cover.jpg
+  description_less: >
+    <p>Creating an oscilloscope from an unused CRT Television</p>
+  description_more: >
+    <p>For the most part, cathode ray tube displays are obsolete. Why not convert one to an oscilloscope?</p>
+
+    <a href="/2017/03/21/crt-oscilloscope.html" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+
+  tags: [micro-electronics]

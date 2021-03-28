@@ -1,0 +1,25 @@
+---
+layout: page
+title: Posts
+subtitle: Project logs.
+description: Matthew's posts page
+full_logo: true
+permalink: /posts
+sitemap:
+  priority: 0.9
+---
+{% for post in site.posts %}   
+    {% unless post.listed == false %}
+        {% if post.pin %}
+            {% include post/post_card.html %}
+        {% endif %}
+    {% endunless %}   
+{% endfor %}
+
+{% for post in site.posts %}   
+    {% unless post.listed == false %}
+        {% if post.pin != true %}
+            {% include post/post_card.html %}
+        {% endif %}
+    {% endunless %}   
+{% endfor %}
